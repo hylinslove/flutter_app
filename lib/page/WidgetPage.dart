@@ -71,13 +71,5 @@ class WidgetPageState extends State<WidgetPage> {
     widgets = new List();
     widgets.add(WidgetBean(
         name: "TextView", description: "文本控件", icon: Icons.text_fields));
-    widgets.add(WidgetBean(
-        name: "TextView", description: "文本控件", icon: Icons.text_fields));
-    widgets.add(WidgetBean(
-        name: "TextView", description: "文本控件", icon: Icons.text_fields));
-    widgets.add(WidgetBean(
-        name: "TextView", description: "文本控件", icon: Icons.text_fields));
-    widgets.add(WidgetBean(
-        name: "TextView", description: "文本控件", icon: Icons.text_fields));
   }
 }
