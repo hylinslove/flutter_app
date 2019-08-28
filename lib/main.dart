@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter_app/page/WidgetPage.dart';
 import 'package:flutter_app/page/filePage.dart';
+import 'package:flutter_app/page/databasePage.dart';
 
 void main() => runApp(MyApp());
 
@@ -65,7 +67,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ListTile(
               onTap: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => WidgetPage()));
+                    CupertinoPageRoute(builder: (context) => WidgetPage()));
               },
               leading: Icon(
                 Icons.widgets,
@@ -76,7 +78,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ListTile(
               onTap: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => WidgetPage()));
+                    CupertinoPageRoute(builder: (context) => WidgetPage()));
               },
               leading: Icon(
                 Icons.airplay,
@@ -87,7 +89,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ListTile(
               onTap: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => WidgetPage()));
+                    CupertinoPageRoute(builder: (context) => DatabasePage()));
               },
               leading: Icon(
                 Icons.perm_data_setting,
@@ -98,7 +100,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ListTile(
               onTap: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => FilePage()));
+                    CupertinoPageRoute(builder: (context) => FilePage()));
               },
               leading: Icon(
                 Icons.insert_drive_file,
